@@ -12,7 +12,7 @@ RUN curl -fL \
  
 
 # Main image
-FROM louislam/uptime-kuma:1.23.17-alpine as KUMA
+FROM louislam/uptime-kuma:beta as KUMA
 
 ARG UPTIME_KUMA_PORT=3001
 WORKDIR /app
